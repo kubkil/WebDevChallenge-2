@@ -3,5 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "Jakub Kilar <kuba.kilar@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^9.5.1",
+    "eslint": "^5.16.0",
+    "node-sass": "^4.11.0",
+    "postcss-cli": "^6.1.2"
+  }
 }

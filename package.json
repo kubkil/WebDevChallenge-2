@@ -4,6 +4,12 @@
   "main": "index.js",
   "author": "Jakub Kilar <kuba.kilar@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "scss": "node-sass --output-style compressed -o dist/css src/scss",
+    "autoprefix": "postcss -u autoprefixer -r dist/css/*",
+    "babel": "src/script.js --watch --out-file dist/script-compiled.js",
+    "imagemin": "imagemin src/images dist/images"
+  },
   "devDependencies": {
     "@babel/cli": "^7.4.3",
     "@babel/core": "^7.4.3",

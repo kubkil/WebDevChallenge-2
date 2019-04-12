@@ -5,10 +5,16 @@
   "author": "Jakub Kilar <kuba.kilar@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "mkdir": "mkdir -p dist/js dist/css dist/images",
     "scss": "node-sass --output-style compressed -o dist/css src/scss",
     "autoprefix": "postcss -u autoprefixer -r dist/css/*",
-    "babel": "src/script.js --watch --out-file dist/script-compiled.js",
-    "imagemin": "imagemin src/images dist/images"
+    "build:css": "npm run scss && npm run autoprefix",
+    "build:babel": "src/script.js --out-file dist/js/script-compiled.js",
+    "watch:babel": "src/script.js --watch --out-file dist/js/script-compiled.js",
+    "imagemin": "imagemin src/images dist/images",
+    "build": "npm run build:css && npm run build:babel && npm run imagemin",
+    "watch:css": "onchange 'scr/scss/*.scss' -- npm run build:css",
+    "watch": "npm-run-all watch:*"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.3",

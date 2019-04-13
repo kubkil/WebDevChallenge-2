@@ -9,11 +9,11 @@
     "scss": "node-sass --output-style compressed -o dist/css src/scss",
     "autoprefix": "postcss -u autoprefixer -r dist/css/*",
     "build:css": "npm run scss && npm run autoprefix",
-    "build:babel": "src/script.js --out-file dist/js/script-compiled.js",
-    "watch:babel": "src/script.js --watch --out-file dist/js/script-compiled.js",
-    "imagemin": "imagemin src/images dist/images",
+    "build:babel": "npx babel src/script.js --out-file dist/js/script-compiled.js",
+    "imagemin": "imagemin src/images/* --out-dir=dist/images",
     "build": "npm run build:css && npm run build:babel && npm run imagemin",
     "watch:css": "onchange 'scr/scss/*.scss' -- npm run build:css",
+    "watch:babel": "onchange 'scr/script.js' -- npm run build:babel",
     "watch": "npm-run-all watch:*"
   },
   "devDependencies": {

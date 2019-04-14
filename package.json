@@ -12,7 +12,8 @@
     "build:babel": "npx babel src/script.js --out-file dist/js/script-compiled.js",
     "imagemin": "imagemin src/images/* --out-dir=dist/images",
     "build": "npm run build:css && npm run build:babel && npm run imagemin",
-    "watch:css": "onchange 'scr/scss/*.scss' -- npm run build:css",
+    "watch:scss": "node-sass --output-style compressed --watch src/scss -o dist/css",
+    "watch:css": "onchange 'dist/css/*.css' -- npm run autoprefix",
     "watch:babel": "onchange 'scr/script.js' -- npm run build:babel",
     "watch": "npm-run-all watch:*"
   },

@@ -15,6 +15,13 @@
     transform: translate(-50%);
   }
 }
+
+.container__nav-item:hover::before {
+  @include respond-to(large) {
+    background: #ff6033;
+  }
+}
+
 .container__nav-link {
   text-transform: uppercase;
   color: #000;

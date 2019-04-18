@@ -25,10 +25,7 @@
 .container__nav-link {
   text-transform: uppercase;
   color: #000;
-  border-top: 3px solid transparent;
   &:hover {
     color: #000;
-    border-top: 3px solid #ff6033;
-    border-width: 50%;
   }
 }

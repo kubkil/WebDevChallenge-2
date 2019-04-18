@@ -2,6 +2,19 @@
   font-weight: 700;
 }
 
+.container__nav-item {
+  position: relative;
+  &::before {
+    content: '';
+    background: transparent;
+    position: absolute;
+    width: 85%;
+    height: 3px;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+  }
+}
 .container__nav-link {
   text-transform: uppercase;
   color: #000;

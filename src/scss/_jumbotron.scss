@@ -1,0 +1,15 @@
+.jumbotron-custom {
+  background: url('../images/hero.png') center/cover no-repeat;
+  height: 100vh;
+}
+
+.jumbotron-custom__heading {
+  font-weight: 700;
+}
+
+.jumbotron-custom__btn {
+  background: #ff6033;
+  border: none;
+  text-transform: uppercase;
+  box-shadow: 0px 0px 20px -8px rgba(0, 0, 0, 0.88);
+}

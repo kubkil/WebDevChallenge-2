@@ -1,3 +1,9 @@
+.container-nav {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
 .container__navbar-toggler {
   transition: all 0.3s ease;
 }

@@ -1,6 +1,10 @@
 .jumbotron-custom {
   background: url('../images/hero.png') center/cover no-repeat;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
 }
 
 .jumbotron-custom__heading {

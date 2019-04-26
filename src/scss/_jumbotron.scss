@@ -2,10 +2,13 @@
   background: url('../images/hero.png') center/cover no-repeat;
   height: 100vh;
 }
+
+.jumbotron-custom {
   display: flex;
   flex-direction: column;
   justify-content: center;
   position: relative;
+  background: transparent;
 }
 
 .jumbotron-custom__heading {

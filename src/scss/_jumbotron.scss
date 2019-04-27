@@ -3,28 +3,27 @@
   height: 100vh;
 }
 
-.jumbotron-custom {
+.jumbo {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  position: relative;
   background: transparent;
 }
 
-.jumbotron-custom__heading {
+.jumbo__heading {
   font-weight: 700;
   align-self: center;
   font-size: 3.75rem;
 }
 
-.jumbotron-custom__lead {
+.jumbo__lead {
   font-size: 1.0625rem;
   width: 100%;
   max-width: 368px;
   margin: 2rem 0;
 }
 
-.jumbotron-custom__btn {
+.jumbo__btn {
   background: #ff6033;
   border: none;
   text-transform: uppercase;
@@ -32,7 +31,7 @@
   padding: 1rem;
 }
 
-.jumbotron-custom__scroll {
+.jumbo__scroll {
   position: absolute;
   width: 30px;
   height: 50px;

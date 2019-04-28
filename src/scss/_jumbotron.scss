@@ -34,22 +34,22 @@
 
 .jumbo__scroll {
   position: absolute;
-  width: 30px;
-  height: 50px;
+  width: 25px;
+  height: 45px;
   bottom: 5%;
   left: 50%;
-  box-shadow: inset 0 0 0 1px #000;
+  box-shadow: inset 0 0 0 2px #000;
   border-radius: 25px;
   &::before {
     content: '';
     position: absolute;
     left: 50%;
-    width: 8px;
-    height: 8px;
+    width: 3.5px;
+    height: 10px;
     background: #000;
-    margin-left: -4px;
+    margin-left: -2px;
     top: 8px;
-    border-radius: 4px;
+    border-radius: 3px;
     animation-duration: 1.5s;
     animation-iteration-count: infinite;
     animation-name: scroll;
@@ -62,6 +62,6 @@
   }
   100% {
     opacity: 0;
-    transform: translateY(25px);
+    transform: translateY(20px);
   }
 }

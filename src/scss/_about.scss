@@ -1,3 +1,36 @@
 .about {
   background: #00baba;
+  padding: 3rem 0;
+}
+
+.about__row {
+  align-items: center;
+}
+
+.about__text {
+  @include respond-to(large) {
+    margin-left: 1rem;
+  }
+}
+
+.about__heading {
+  color: #ffffff;
+  font-size: 5.625rem;
+  font-weight: 700;
+}
+
+.about__image {
+  object-fit: contain;
+  display: none;
+  max-width: 556px;
+  max-height: 559px;
+  @include respond-to(large) {
+    display: block;
+    margin-right: 1rem;
+  }
+}
+
+.about__para {
+  color: #ffffff;
+  font-size: 1.0625rem;
 }

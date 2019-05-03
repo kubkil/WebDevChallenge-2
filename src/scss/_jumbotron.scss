@@ -1,7 +1,11 @@
 .hero {
-  background: url('../images/hero.png') no-repeat center/cover fixed;
+  background: url('../images/hero.png') no-repeat fixed;
   height: 100vh;
   position: relative;
+  @include media-breakpoint-up(md) {
+    background-size: cover;
+    background-position: center;
+}
 }
 
 .jumbo {

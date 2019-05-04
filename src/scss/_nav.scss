@@ -77,7 +77,7 @@ button.collapsed {
 }
 
 .hero__nav-item:hover::before {
-  @include respond-to(large) {
+  @include media-breakpoint-up(lg) {
     background: #ff6033;
   }
 }

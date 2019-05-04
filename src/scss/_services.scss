@@ -1,8 +1,71 @@
 .services {
   background: #70bfff;
+  padding: 3rem 0;
+}
+
+.services__row {
+  flex-direction: column;
+}
+
+.services__col {
+  order: 2;
+}
+
+.services__heading {
+  order: 1;
+  font-size: 5.625rem;
+  color: #ffffff;
+  font-weight: 700;
 }
 
 .services__assets {
   display: flex;
   background: #ffffff;
+  margin-bottom: 2rem;
+  align-items: center;
+  justify-content: center;
+  max-width: 400px;
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  position: relative;
+  &::after {
+    content: '';
+    position: absolute;
+    background: #9d9d9d;
+    width: 1.5px;
+    height: 100%;
+    right: 30%;
+  }
+}
+
+.services__para {
+  flex: 8;
+  margin: 0;
+  padding: 0;
+}
+
+.services__icon {
+  flex: 2;
+}
+
+.services__image {
+  display: block;
+  margin: 0 auto;
+}
+
+.services__image--trolley {
+  max-width: 47px;
+  height: 100%;
+}
+
+.services__image--hand,
+.services__image--carrot {
+  max-width: 55px;
+  height: 100%;
+}
+
+.services__image--globe {
+  max-width: 54px;
+  height: 100%;
 }

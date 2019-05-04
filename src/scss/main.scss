@@ -1,8 +1,21 @@
 @import 'variables';
 @import 'mixins';
+@import '../../node_modules/bootstrap/scss/functions';
+@import '../../node_modules/bootstrap/scss/variables';
+@import '../../node_modules/bootstrap/scss/mixins/breakpoints';
 
 * {
   font-family: 'Raleway', sans-serif;
+}
+
+html {
+  @include media-breakpoint-up(320px) {
+    font-size: calc(16px + 6 * ((100vw - 320px) / 880));
+  }
+
+  @include media-breakpoint-up(lg) {
+    font-size: 22px;
+  }
 }
 
 @import 'nav';

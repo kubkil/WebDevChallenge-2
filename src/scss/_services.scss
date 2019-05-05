@@ -3,8 +3,9 @@
   padding: 3rem 0;
 }
 
-.services__row {
-  flex-direction: column;
+.services__container {
+  display: flex;
+  justify-content: center;
 }
 
 .services__col {

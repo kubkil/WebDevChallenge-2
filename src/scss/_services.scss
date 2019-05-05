@@ -8,8 +8,12 @@
   justify-content: center;
 }
 
-.services__col {
-  order: 2;
+.services__row {
+  flex-direction: column-reverse;
+  @include media-breakpoint-up(lg) {
+    flex-direction: row;
+    width: 100%;
+}
 }
 
 .services__heading {

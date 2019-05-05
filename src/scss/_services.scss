@@ -13,7 +13,7 @@
   @include media-breakpoint-up(lg) {
     flex-direction: row;
     width: 100%;
-}
+  }
 }
 
 .services__heading {
@@ -25,7 +25,7 @@
   align-items: center;
   @include media-breakpoint-up(lg) {
     background: url('../../dist/images/tomato.png') center/contain no-repeat;
-}
+  }
 }
 
 .services__assets {
@@ -39,6 +39,7 @@
   min-height: 4.545454545454546rem;
   padding-right: 0;
   position: relative;
+  box-shadow: 0px 0px 12px -3px #000000;
   &::after {
     content: '';
     position: absolute;

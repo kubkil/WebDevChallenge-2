@@ -31,6 +31,7 @@
 .services__assets {
   display: flex;
   background: #ffffff;
+  margin: 0 auto;
   margin-bottom: 2rem;
   align-items: center;
   justify-content: center;
@@ -40,6 +41,7 @@
   padding-right: 0;
   position: relative;
   box-shadow: 0px 0px 12px -3px #000000;
+  padding-left: 15px;
   &::after {
     content: '';
     position: absolute;

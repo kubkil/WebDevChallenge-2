@@ -14,9 +14,13 @@
 }
 
 .about__heading {
+  text-align: center;
   color: #ffffff;
   font-size: 4.090909090909091rem;
   font-weight: 700;
+  @include media-breakpoint-up(lg) {
+    text-align-last: left;
+  }
 }
 
 .about__image {

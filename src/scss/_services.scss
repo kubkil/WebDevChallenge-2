@@ -17,12 +17,12 @@
 }
 
 .services__heading {
+  display: flex;
+  align-items: center;
+  align-self: stretch;
   font-size: 4.090909090909091rem;
   color: #ffffff;
   font-weight: 700;
-  align-self: stretch;
-  display: flex;
-  align-items: center;
   @include media-breakpoint-up(lg) {
     background: url('../../dist/images/tomato.png') center no-repeat;
   }

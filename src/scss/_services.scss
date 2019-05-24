@@ -12,7 +12,6 @@
 .services__row {
   flex-direction: column-reverse;
   @include media-breakpoint-up(lg) {
-    flex-direction: row;
     width: 100%;
   }
 }

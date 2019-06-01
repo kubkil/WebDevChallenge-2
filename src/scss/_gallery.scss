@@ -3,6 +3,11 @@
   height: 100%;
 }
 
+.gallery__row--top {
+  @include media-breakpoint-up(lg) {
+    margin-bottom: 1.5rem;
+  }
+}
 
 .gallery__image {
   margin-bottom: 1.5rem;

@@ -31,6 +31,15 @@
   align-self: flex-end;
 }
 
+.gallery__row--hidden {
+  margin-top: 1.5rem;
+  display: none;
+}
+
+.gallery__row--shown {
+  display: flex;
+}
+
 .gallery__button {
   color: #fff;
   display: block;

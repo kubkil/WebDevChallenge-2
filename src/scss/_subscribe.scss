@@ -1,0 +1,40 @@
+.subscribe {
+  padding: 3rem 0;
+  @include media-breakpoint-up(lg) {
+    background: url('../images/blueberries_2.png') center no-repeat;
+  }
+}
+
+.subscribe__heading {
+  font-size: 1.8181818181818181rem;
+  font-weight: 700;
+}
+
+.subscribe__para {
+  font-size: 17px;
+  max-width: 550px;
+  width: 100%;
+}
+
+.subscribe__input {
+  padding: 8px;
+  margin: 0 15px;
+  height: 2.5454545454545454rem;
+  font-size: 17px;
+  border: 1px solid #000;
+  &::placeholder {
+    font-size: 15px;
+  }
+}
+
+.subscribe__btn {
+  font-size: 20px;
+  max-width: 7.7727272727272725rem;
+  width: 100%;
+  height: 2.5454545454545454rem;
+  margin: 0 15px;
+  color: #fff;
+  background: #96b92c;
+  border: none;
+  box-shadow: 0px 0px 10px -3px #000000;
+}

@@ -1,0 +1,54 @@
+.blog {
+  padding: 3rem 0;
+  background: #b07cf7;
+}
+
+.blog__heading {
+  @include section-heading;
+  text-align: center;
+  color: #fff;
+}
+
+.blog__para {
+  font-size: $font-size-para;
+  max-width: 563px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  @include margin-para;
+}
+
+.blog__col {
+  position: relative;
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 60%,
+      rgba(0, 0, 0, 1) 105%
+    ),
+    url(../images/kiwi-coctail.png);
+  height: 312px;
+  max-width: 372px;
+  width: 100%;
+}
+
+.blog__date {
+  position: absolute;
+  font-size: 0.9545454545454546rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  height: 60px;
+  width: 60px;
+}
+
+.blog__day {
+  display: block;
+  font-size: 1.4545454545454546rem;
+  line-height: 0.9;
+}
+.blog__post {
+}
+.blog__author {
+}

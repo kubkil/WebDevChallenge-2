@@ -24,7 +24,8 @@
   height: 100%;
 }
 
-.gallery__row--top {
+.gallery__row--top,
+.gallery__row--middle {
   @include media-breakpoint-up(lg) {
     margin-bottom: 1.5rem;
   }
@@ -48,11 +49,11 @@
   align-self: flex-end;
 }
 
-.gallery__row--hidden {
+.gallery__hidden {
   display: none;
 }
 
-.gallery__row--shown {
+.gallery__shown {
   display: flex;
 }
 

@@ -24,17 +24,38 @@
 }
 
 .blog__col {
-  background: linear-gradient(
-      180deg,
-      rgba(255, 255, 255, 0) 60%,
-      rgba(0, 0, 0, 1) 105%
-    ),
-    url(../images/kiwi-coctail.png);
   height: 312px;
   margin: 10px;
   max-width: 360px;
   position: relative;
   width: 100%;
+}
+
+.blog__col--kiwi {
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 60%,
+      rgba(0, 0, 0, 1) 105%
+    ),
+    url(../images/kiwi-cocktail.png);
+}
+
+.blog__col--peas {
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 60%,
+      rgba(0, 0, 0, 1) 105%
+    ),
+    url(../images/pea-soup.png);
+}
+
+.blog__col--raspberries {
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 60%,
+      rgba(0, 0, 0, 1) 105%
+    ),
+    url(../images/raspberries.png);
 }
 
 .blog__date {
@@ -45,7 +66,6 @@
   font-weight: 700;
   color: #fff;
   text-transform: uppercase;
-  font-weight: 700;
   text-align: center;
   height: 60px;
   width: 60px;
